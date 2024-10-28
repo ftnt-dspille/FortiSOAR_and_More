@@ -14,18 +14,13 @@ params:
         url: posts/tutorials
       - name: Best Practices
         url: posts/best-practices
+
   socialIcons:
     - name: github
       url: https://github.com/ftnt-dspille
     - name: linkedin
       url: https://linkedin.com/in/dylan-spille/
-      ShowReadingTime: true
-      ShowCodeCopyButtons: true
-      ShowToc: true
-      TocOpen: true
-      ShowBreadCrumbs: true
-      ShowPostNavLinks: true
-      ShowWordCount: true
+
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -40,7 +35,7 @@ taxonomies:
   category: categories
   tag: tags
   series: series
-  social: social
+
 menu:
   main:
     - identifier: about
