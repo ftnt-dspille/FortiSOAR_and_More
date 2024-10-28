@@ -1,0 +1,63 @@
+baseURL: https://dspille.github.io/FortiSOAR_and_More/
+languageCode: en-us
+title: FortiSOAR & More
+theme: PaperMod
+params:
+  profileMode:
+    enabled: true
+    title: Welcome to My Blog
+    subtitle: Sharing thoughts on Fortinet, technology, and life
+    buttons:
+      - name: About
+        url: about
+      - name: Tutorials
+        url: posts/tutorials
+      - name: Best Practices
+        url: posts/best-practices
+  socialIcons:
+    - name: github
+      url: https://github.com/ftnt-dspille
+    - name: linkedin
+      url: https://linkedin.com/in/dylan-spille/
+      ShowReadingTime: true
+      ShowCodeCopyButtons: true
+      ShowToc: true
+      TocOpen: true
+      ShowBreadCrumbs: true
+      ShowPostNavLinks: true
+      ShowWordCount: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+  social: social
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
