@@ -9,16 +9,16 @@ description: "Step by step guide for..."
 showToc: true
 ShowReadingTime: true
 author: "Dylan Spille"
-cover:
-  image: images/fortisoar.png
-  alt: "FortiSOAR Icon"
-  caption: 
-  hidden: false
+#cover:
+#  image: images/fortisoar.png
+#  alt: "FortiSOAR Icon"
 ---
 
 ## Overview
 
 [Provide a brief overview of what this tutorial will cover]
+
+![sample image](images/fortisoar.png)
 
 ```python
 test = "Hello, World!"
