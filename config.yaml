@@ -1,0 +1,72 @@
+# config.yaml
+baseURL: 'https://dspille.github.io/SecureOps_Insights/'
+languageCode: 'en-us'
+title: 'SecureOps Insights'
+theme: 'PaperMod'
+
+params:
+  profileMode:
+    enabled: true
+    title: "Welcome to My Blog"
+    subtitle: "Sharing thoughts on Fortinet, technology, and life"
+    buttons:
+      #      - name: Posts
+      #        url: posts
+      - name: About
+        url: about
+      - name: Tutorials
+        url: tutorials
+      #      - name: Integrations
+      #        url: integrations
+      #      - name: Playbooks
+      #        url: playbooks
+      - name: Best Practices
+        url: best-practices
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ftnt-dspille"
+    - name: linkedin
+      url: "https://linkedin.com/in/dylan-spille/"
+
+    # Enhanced features for technical documentation
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowToc: true  # Table of Contents
+  TocOpen: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowWordCount: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: [ "title", "permalink", "summary", "content" ]
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: tutorials
+      name: Tutorials
+      url: /tutorials/
+      weight: 10
+    - identifier: best-practices
+      name: Best Practices
+      url: /best-practices/
+      weight: 40
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 50
