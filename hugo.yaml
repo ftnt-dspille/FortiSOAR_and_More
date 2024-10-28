@@ -3,7 +3,6 @@ languageCode: en-us
 title: FortiSOAR & More
 theme: PaperMod
 params:
-  social: true
   profileMode:
     enabled: true
     title: Welcome to My Blog
